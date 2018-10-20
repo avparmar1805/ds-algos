@@ -91,7 +91,7 @@ public class Merge2SortedArrays {
 			counter++;
 			oneCounter++;
 		}
-		while (twoCounter < two.len        gth) {
+		while (twoCounter < two.length) {
 			sortedArray[counter] = two[twoCounter];
 			counter++;
 			twoCounter++;

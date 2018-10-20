@@ -2,17 +2,9 @@ package Feb11;
 
 public class MatrixMultiplication {
 	public static void main(String[] args) {
-		int[][] mat1 = { 
-				{ 10, 0, 1 }, 
-				{ 2, 0, 1 } 
-			}; // 2*3
+		int[][] mat1 = { { 10, 0, 1 }, { 2, 0, 1 } }; // 2*3
 
-		int[][] mat2 = { 
-				{ 10, 0, 1 }, 
-				{ 2, 0, 1 }, 
-				{ 2, 0, 1 }
-			}; // 3*3
-		
+		int[][] mat2 = { { 10, 0, 1 }, { 2, 0, 1 }, { 2, 0, 1 } }; // 3*3
 
 		Multiply(mat1, mat2);
 	}
@@ -40,4 +32,6 @@ public class MatrixMultiplication {
 			}
 		}
 	}
+
+	
 }

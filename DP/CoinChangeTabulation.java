@@ -14,7 +14,6 @@ public class CoinChangeTabulation {
 
 		container[0] = 1;
 
-		@SuppressWarnings("rawtypes")
 		ArrayList[] ways = new ArrayList[amount + 1];
 		for (int i = 0; i < ways.length; i++) {
 			ways[i] = new ArrayList<String>();
@@ -28,7 +27,6 @@ public class CoinChangeTabulation {
 				if(x - coins[i] >= 0) {
 					container[x] = container[x] + container[x - coins[i]];
 
-					@SuppressWarnings("unchecked")
 					ArrayList<String> destList = ways[x];
 					ArrayList<String> srcList = ways[x - coins[i]];
 
