@@ -5,8 +5,8 @@ import java.util.PriorityQueue;
 
 public class ClientPQ {
 	public static void main(String[] args) {
-		// int[] arr = { 10, 1, 7, 23, 42, 37, 8 };
-		// printKSmallest(arr, 3);
+		 int[] arr = { 10, 1, 7, 23, 42, 37, 8 };
+		 printKSmallest(arr, 3);
 
 		// MedianPriorityQueue mpq = new MedianPriorityQueue();
 		// mpq.add(10);
@@ -26,8 +26,8 @@ public class ClientPQ {
 		// System.out.println(mpq.remove());
 		// System.out.println(mpq.remove());
 
-		int[] arr = { 30, 20, 10, 60, 50, 40, 80, 70 };
-		KSorted(arr, 2);
+//		int[] arr = { 30, 20, 10, 60, 50, 40, 80, 70 };
+//		KSorted(arr, 2);
 	}
 
 	public static void KSorted(int[] arr, int k) {

@@ -1,7 +1,5 @@
 package BinaryTree;
 
-import java.util.ArrayList;
-
 public class Client {
 
 	public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class Client {
 		 BinaryTree bt = new BinaryTree(arr);
 		 //bt.display(bt.root);
 		 //bt.verticalOrderTraversal();
-		 bt.topView();
+		 //bt.topView();
 //		 int max = bt.max(bt.root);
 //		 System.out.println("Max => " + max);
 //		
@@ -36,12 +34,13 @@ public class Client {
 //		bt1.display(bt1.root);
 //		bt1.printKDown(20, 3);
 		
-//		int[] arr2 = { 'a','b', 'd', 'f', 'h', -1,-1,'g' , 'i', 'm', 'o', 'v', -1,-1, 'p', 't', -1,-1,-1, 'n', 'q','u',-1,'w'
-//				, -1,-1,-1,-1, 'j', 'k', 'r', 'x', -1 , -1, -1, 'l', 's', 'y', -1,-1,-1,-1,-1,-1,-1,'c','e', 'z', -1,-1,-1,-1};
-//
-//		BinaryTree bt1 = new BinaryTree(arr2);
-//		//bt1.display(bt1.root);
-//		bt1.printKFar('i', 3);
+		int[] arr2 = { 'a','b', 'd', 'f', 'h', -1,-1,'g' , 'i', 'm', 'o', 'v', -1,-1, 'p', 't', -1,-1,-1, 'n', 'q','u',-1,'w'
+			, -1,-1,-1,-1, 'j', 'k', 'r', 'x', -1 , -1, -1, 'l', 's', 'y', -1,-1,-1,-1,-1,-1,-1,'c','e', 'z', -1,-1,-1,-1};
+		 //int[] arr2 = { 50, 25, 12, 10,3,1,-1,4,-1,-1,11,-1,-1,15,-1,-1,37,-1,-1 };
+		 
+		BinaryTree bt1 = new BinaryTree(arr2);
+		bt1.display(bt1.root);
+		bt1.printKFar('i', 3);
 
 	}
 

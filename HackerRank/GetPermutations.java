@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class GetPermutations {
 	public static void main(String[] args) {
-		ArrayList<String> subsq = getPerm("abcd");
+		ArrayList<String> subsq = getPerm("abc");
 
 		for (String rs : subsq) {
 			System.out.println(rs);

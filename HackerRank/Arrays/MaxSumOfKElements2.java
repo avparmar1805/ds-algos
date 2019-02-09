@@ -4,10 +4,10 @@ public class MaxSumOfKElements2 {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 4, 2, 10, 23, 3, 1, 0, 20 };
-		// MaxSum(arr);
+		 MaxSum(arr);
 
-		int[] arr1 = { 1, 2, 3, 4, 5 };
-		MaxSumOfSubArrayWithSumlessThanK(arr1, 11);
+//		int[] arr1 = { 1, 2, 3, 4, 5 };
+//		MaxSumOfSubArrayWithSumlessThanK(arr1, 11);
 	}
 
 	private static void MaxSumOfSubArrayWithSumlessThanK(int[] arr, int sum) {
@@ -28,7 +28,7 @@ public class MaxSumOfKElements2 {
 		System.out.println("Max Sum =" + maxSum);
 	}
 
-	private void MaxSum(int[] arr) {
+	private static void MaxSum(int[] arr) {
 		int k = 4;
 		int maxSum = Integer.MIN_VALUE;
 		int currSum = 0;

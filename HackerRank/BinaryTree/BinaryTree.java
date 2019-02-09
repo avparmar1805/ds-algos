@@ -316,7 +316,7 @@ public class BinaryTree {
 			Node currNode = path.get(i);
 			Node prevNode = path.get(i - 1);
 
-			boolean isLeft = prevNode.left == currNode ? true : false;
+			boolean isLeft = currNode.left == prevNode ? true : false;
 
 			if (isLeft) {
 				printKDown(currNode.right, k - i - 1);
