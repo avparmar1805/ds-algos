@@ -1,0 +1,1869 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RecursionExamples",
+            "request": "launch",
+            "mainClass": "RecursionExamples",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsPrime<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "IsPrime",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestOfThree<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "LargestOfThree",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleInterest<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "SimpleInterest",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumToN<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "SumToN",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInstallation<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "TestInstallation",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionConclusion<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "apr1.RecursionConclusion",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(1)",
+            "request": "launch",
+            "mainClass": "apr14.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoinChangeCombination<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "apr21.CoinChangeCombination",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rodCutting<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "apr21.rodCutting",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mpc<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "apr22.mpc",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(2)",
+            "request": "launch",
+            "mainClass": "apr28.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "apr7.Solution",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TnSBegins<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "apr7.TnSBegins",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArraysCtd<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb10.ArraysCtd",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoD<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb10.TwoD",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWithArrays<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb10.WorkWithArrays",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kadane<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb11.kadane",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sortings<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb11.sortings",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWithTwodArrays<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb17.WorkWithTwodArrays",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWith2d<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb18.WorkWith2d",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SBDemo<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb24.SBDemo",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringsAndSB<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb24.StringsAndSB",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionBegins<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb25.RecursionBegins",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckCasing<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.CheckCasing",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DataTypesCtd<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.DataTypesCtd",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FunWithArrays<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.FunWithArrays",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinearSearch<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.LinearSearch",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxOfArray<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.MaxOfArray",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ToggleCase<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.ToggleCase",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-fartocel<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.fartocel",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-swqrtotoprecision<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb3.swqrtotoprecision",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-binarysearch<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb4.binarysearch",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-boardtravel<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb4.boardtravel",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-inverse<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb4.inverse",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-linearSearch<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb4.linearSearch",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-maxofarray<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb4.maxofarray",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mirrorinverse<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "feb4.mirrorinverse",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestOfThree2<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.LargestOfThree2",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P151<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.P151",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P155<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.P155",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P156<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.P156",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P157<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.P157",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseANumber<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.ReverseANumber",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateANumber<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.RotateANumber",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleInterest2<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.SimpleInterest2",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumToN2<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.SumToN2",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInstallation2<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.TestInstallation2",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-cbp<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan21.cbp",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitManipulation<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan27.BitManipulation",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P152<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan27.P152",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P159<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan27.P159",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-b2d<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan27.b2d",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-d2b<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan27.d2b",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-o2b<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan27.o2b",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitManipulation<Jan202018 (2)>(1)",
+            "request": "launch",
+            "mainClass": "jan28.BitManipulation",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FunWithDataTypes<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan28.FunWithDataTypes",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsBitOn<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "jan28.IsBitOn",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(3)",
+            "request": "launch",
+            "mainClass": "june12.oops.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(4)",
+            "request": "launch",
+            "mainClass": "june12.queues.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(5)",
+            "request": "launch",
+            "mainClass": "june12.stacks.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(6)",
+            "request": "launch",
+            "mainClass": "june14.adapters.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(7)",
+            "request": "launch",
+            "mainClass": "june15.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(8)",
+            "request": "launch",
+            "mainClass": "june19.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(9)",
+            "request": "launch",
+            "mainClass": "june23.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(10)",
+            "request": "launch",
+            "mainClass": "june26.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(11)",
+            "request": "launch",
+            "mainClass": "june27.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(12)",
+            "request": "launch",
+            "mainClass": "june9.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Polynomial<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "june9.Polynomial",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(13)",
+            "request": "launch",
+            "mainClass": "june9.queues.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(14)",
+            "request": "launch",
+            "mainClass": "june9.stacks.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018 (2)>(15)",
+            "request": "launch",
+            "mainClass": "mar10.Client",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListDemo<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar17.ArrayListDemo",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionWithArrayLists<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar17.RecursionWithArrayLists",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionInQA<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar18.RecursionInQA",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pathsInBoardsAndMazes<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar24.pathsInBoardsAndMazes",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionCtd<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar25.RecursionCtd",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWithStrings<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar3.WorkWithStrings",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionFinalStretch<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar31.RecursionFinalStretch",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionBegins<Jan202018 (2)>(1)",
+            "request": "launch",
+            "mainClass": "mar4.RecursionBegins",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringBuilderDemos<Jan202018 (2)>",
+            "request": "launch",
+            "mainClass": "mar4.StringBuilderDemos",
+            "projectName": "Jan202018 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsPrime<Jan202018>",
+            "request": "launch",
+            "mainClass": "IsPrime",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestOfThree<Jan202018>",
+            "request": "launch",
+            "mainClass": "LargestOfThree",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleInterest<Jan202018>",
+            "request": "launch",
+            "mainClass": "SimpleInterest",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumToN<Jan202018>",
+            "request": "launch",
+            "mainClass": "SumToN",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInstallation<Jan202018>",
+            "request": "launch",
+            "mainClass": "TestInstallation",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionConclusion<Jan202018>",
+            "request": "launch",
+            "mainClass": "apr1.RecursionConclusion",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(1)",
+            "request": "launch",
+            "mainClass": "apr14.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoinChangeCombination<Jan202018>",
+            "request": "launch",
+            "mainClass": "apr21.CoinChangeCombination",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rodCutting<Jan202018>",
+            "request": "launch",
+            "mainClass": "apr21.rodCutting",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mpc<Jan202018>",
+            "request": "launch",
+            "mainClass": "apr22.mpc",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(2)",
+            "request": "launch",
+            "mainClass": "apr28.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<Jan202018>",
+            "request": "launch",
+            "mainClass": "apr7.Solution",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TnSBegins<Jan202018>",
+            "request": "launch",
+            "mainClass": "apr7.TnSBegins",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArraysCtd<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb10.ArraysCtd",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoD<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb10.TwoD",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWithArrays<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb10.WorkWithArrays",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kadane<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb11.kadane",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sortings<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb11.sortings",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWithTwodArrays<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb17.WorkWithTwodArrays",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWith2d<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb18.WorkWith2d",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SBDemo<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb24.SBDemo",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringsAndSB<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb24.StringsAndSB",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionBegins<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb25.RecursionBegins",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckCasing<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.CheckCasing",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DataTypesCtd<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.DataTypesCtd",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FunWithArrays<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.FunWithArrays",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinearSearch<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.LinearSearch",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxOfArray<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.MaxOfArray",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ToggleCase<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.ToggleCase",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-fartocel<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.fartocel",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-swqrtotoprecision<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb3.swqrtotoprecision",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-binarysearch<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb4.binarysearch",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-boardtravel<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb4.boardtravel",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-inverse<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb4.inverse",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-linearSearch<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb4.linearSearch",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-maxofarray<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb4.maxofarray",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mirrorinverse<Jan202018>",
+            "request": "launch",
+            "mainClass": "feb4.mirrorinverse",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestOfThree2<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.LargestOfThree2",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P151<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.P151",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P155<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.P155",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P156<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.P156",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P157<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.P157",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseANumber<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.ReverseANumber",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateANumber<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.RotateANumber",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleInterest2<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.SimpleInterest2",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumToN2<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.SumToN2",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInstallation2<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.TestInstallation2",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-cbp<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan21.cbp",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitManipulation<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan27.BitManipulation",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P152<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan27.P152",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-P159<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan27.P159",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-b2d<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan27.b2d",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-d2b<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan27.d2b",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-o2b<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan27.o2b",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BitManipulation<Jan202018>(1)",
+            "request": "launch",
+            "mainClass": "jan28.BitManipulation",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FunWithDataTypes<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan28.FunWithDataTypes",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsBitOn<Jan202018>",
+            "request": "launch",
+            "mainClass": "jan28.IsBitOn",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(3)",
+            "request": "launch",
+            "mainClass": "july2.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(4)",
+            "request": "launch",
+            "mainClass": "july3.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(5)",
+            "request": "launch",
+            "mainClass": "july4.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hamiltonianCycle<Jan202018>",
+            "request": "launch",
+            "mainClass": "july4.hamiltonianCycle",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kruksalsClient<Jan202018>",
+            "request": "launch",
+            "mainClass": "july4.kruksalsClient",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-topologicalsort<Jan202018>",
+            "request": "launch",
+            "mainClass": "july4.topologicalsort",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(6)",
+            "request": "launch",
+            "mainClass": "july8.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(7)",
+            "request": "launch",
+            "mainClass": "june12.oops.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(8)",
+            "request": "launch",
+            "mainClass": "june12.queues.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(9)",
+            "request": "launch",
+            "mainClass": "june12.stacks.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(10)",
+            "request": "launch",
+            "mainClass": "june14.adapters.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(11)",
+            "request": "launch",
+            "mainClass": "june15.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(12)",
+            "request": "launch",
+            "mainClass": "june19.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(13)",
+            "request": "launch",
+            "mainClass": "june23.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AVLClient<Jan202018>",
+            "request": "launch",
+            "mainClass": "june26.AVLClient",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(14)",
+            "request": "launch",
+            "mainClass": "june26.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(15)",
+            "request": "launch",
+            "mainClass": "june27.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(16)",
+            "request": "launch",
+            "mainClass": "june28.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mergeKLists<Jan202018>",
+            "request": "launch",
+            "mainClass": "june28.mergeKLists",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(17)",
+            "request": "launch",
+            "mainClass": "june29.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(18)",
+            "request": "launch",
+            "mainClass": "june9.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Polynomial<Jan202018>",
+            "request": "launch",
+            "mainClass": "june9.Polynomial",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(19)",
+            "request": "launch",
+            "mainClass": "june9.queues.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(20)",
+            "request": "launch",
+            "mainClass": "june9.stacks.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<Jan202018>(21)",
+            "request": "launch",
+            "mainClass": "mar10.Client",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListDemo<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar17.ArrayListDemo",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionWithArrayLists<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar17.RecursionWithArrayLists",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionInQA<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar18.RecursionInQA",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pathsInBoardsAndMazes<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar24.pathsInBoardsAndMazes",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionCtd<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar25.RecursionCtd",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorkWithStrings<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar3.WorkWithStrings",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionFinalStretch<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar31.RecursionFinalStretch",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionBegins<Jan202018>(1)",
+            "request": "launch",
+            "mainClass": "mar4.RecursionBegins",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringBuilderDemos<Jan202018>",
+            "request": "launch",
+            "mainClass": "mar4.StringBuilderDemos",
+            "projectName": "Jan202018"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>",
+            "request": "launch",
+            "mainClass": "AVL.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GroupWordsTogether<ds-algos>",
+            "request": "launch",
+            "mainClass": "AdvancedDS.Strings.GroupWordsTogether",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmallestWindowContainsDistinctChars<ds-algos>",
+            "request": "launch",
+            "mainClass": "AdvancedDS.Strings.SmallestWindowContainsDistinctChars",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.BinarySearch",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckPairWithSumInArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.CheckPairWithSumInArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ChocDistributionProblem<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.ChocDistributionProblem",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ContSubArraysProdLessThanK<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.ContSubArraysProdLessThanK",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ElementIndexWithLeftRightEqualSum<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.ElementIndexWithLeftRightEqualSum",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HighestFrequencyChar<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.HighestFrequencyChar",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KMaxSumCombinations<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.KMaxSumCombinations",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestSumSubArrayWithKNums<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.LargestSumSubArrayWithKNums",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestContinuousSubSequenceInArr<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.LongestContinuousSubSequenceInArr",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestPalindSubString<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.LongestPalindSubString",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxContSubArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.MaxContSubArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxDifferenceBwElements<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.MaxDifferenceBwElements",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxJMinusI<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.MaxJMinusI",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSumOfKElements<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.MaxSumOfKElements",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSumOfKElements2<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.MaxSumOfKElements2",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxTripletSum<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.MaxTripletSum",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NewMergeSort<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.NewMergeSort",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PascalsTriangle<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.PascalsTriangle",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PathsInBoard<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.PathsInBoard",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintEquiSum<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.PrintEquiSum",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintPythTriplet<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.PrintPythTriplet",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintTargetSumWithIndexes<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.PrintTargetSumWithIndexes",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PythagoreanTriplet<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.PythagoreanTriplet",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSorting<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.QuickSorting",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuicksortAlgo<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.QuicksortAlgo",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SecondHighestInArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.SecondHighestInArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmallestSubArrayWithSumGreater<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.SmallestSubArrayWithSumGreater",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WaveDisplay1DArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.WaveDisplay1DArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZigZagDisplay<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.ZigZagDisplay",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-plusOneToArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "Arrays.plusOneToArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(1)",
+            "request": "launch",
+            "mainClass": "BinarySearchTree.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(2)",
+            "request": "launch",
+            "mainClass": "BinarySearchTreePep.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(3)",
+            "request": "launch",
+            "mainClass": "BinaryTree.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PowerOfTwo<ds-algos>",
+            "request": "launch",
+            "mainClass": "BitOperations.PowerOfTwo",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BubbleSort<ds-algos>",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckDuplicates<ds-algos>",
+            "request": "launch",
+            "mainClass": "CheckDuplicates",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckStringReverse<ds-algos>",
+            "request": "launch",
+            "mainClass": "CheckStringReverse",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Factorization<ds-algos>",
+            "request": "launch",
+            "mainClass": "Factorization",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(4)",
+            "request": "launch",
+            "mainClass": "GenericTree.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetPermutations<ds-algos>",
+            "request": "launch",
+            "mainClass": "GetPermutations",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetSubSequences<ds-algos>",
+            "request": "launch",
+            "mainClass": "GetSubSequences",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(5)",
+            "request": "launch",
+            "mainClass": "GraphClass.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(6)",
+            "request": "launch",
+            "mainClass": "GraphStory.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CarsClient<ds-algos>",
+            "request": "launch",
+            "mainClass": "HashStory.CarsClient",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(7)",
+            "request": "launch",
+            "mainClass": "HashStory.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClientPQ<ds-algos>",
+            "request": "launch",
+            "mainClass": "HashStory.ClientPQ",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapClient<ds-algos>",
+            "request": "launch",
+            "mainClass": "HashStory.HeapClient",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TrieClient<ds-algos>",
+            "request": "launch",
+            "mainClass": "HashStory.TrieClient",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSort<ds-algos>",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InverseArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "InverseArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KadanesAlgorithm<ds-algos>",
+            "request": "launch",
+            "mainClass": "KadanesAlgorithm",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestSubArrayCOntElements<ds-algos>",
+            "request": "launch",
+            "mainClass": "LargestSubArrayCOntElements",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeftRotateMatrix<ds-algos>",
+            "request": "launch",
+            "mainClass": "LeftRotateMatrix",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(8)",
+            "request": "launch",
+            "mainClass": "LinkedList.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MatrixDisplays<ds-algos>",
+            "request": "launch",
+            "mainClass": "MatrixDisplays",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MatrixOperations<ds-algos>",
+            "request": "launch",
+            "mainClass": "MatrixOperations",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxFreqChar<ds-algos>",
+            "request": "launch",
+            "mainClass": "MaxFreqChar",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSort<ds-algos>",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinNumberInfiniteGrid<ds-algos>",
+            "request": "launch",
+            "mainClass": "MinNumberInfiniteGrid",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<ds-algos>",
+            "request": "launch",
+            "mainClass": "OOPS.Main",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PascalTriangle_T<ds-algos>",
+            "request": "launch",
+            "mainClass": "PascalTriangle_T",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PatterFib_T<ds-algos>",
+            "request": "launch",
+            "mainClass": "PatterFib_T",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintTargetSum<ds-algos>",
+            "request": "launch",
+            "mainClass": "PrintTargetSum",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QueueClient<ds-algos>",
+            "request": "launch",
+            "mainClass": "QueueStory.QueueClient",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QueueTClient<ds-algos>",
+            "request": "launch",
+            "mainClass": "QueueStory.QueueTClient",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSort<ds-algos>",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ComnbinationOfQueensInBoxes<ds-algos>",
+            "request": "launch",
+            "mainClass": "Recursion.ComnbinationOfQueensInBoxes",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PermutationOfQueensInBoxes<ds-algos>",
+            "request": "launch",
+            "mainClass": "Recursion.PermutationOfQueensInBoxes",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecursionQns<ds-algos>",
+            "request": "launch",
+            "mainClass": "RecursionQns",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveConsDuplicates<ds-algos>",
+            "request": "launch",
+            "mainClass": "RemoveConsDuplicates",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseWordsInString<ds-algos>",
+            "request": "launch",
+            "mainClass": "ReverseWordsInString",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateAnArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "RotateAnArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SecondLargestInArray<ds-algos>",
+            "request": "launch",
+            "mainClass": "SecondLargestInArray",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SelectionSort<ds-algos>",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sort01<ds-algos>",
+            "request": "launch",
+            "mainClass": "Sort01",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sort012<ds-algos>",
+            "request": "launch",
+            "mainClass": "Sort012",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortingProblem<ds-algos>",
+            "request": "launch",
+            "mainClass": "SortingProblem",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Client<ds-algos>(9)",
+            "request": "launch",
+            "mainClass": "StackStory.Client",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClientT<ds-algos>",
+            "request": "launch",
+            "mainClass": "StackStory.ClientT",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Anagrams<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.Anagrams",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AreAnagrams<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.AreAnagrams",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsBalancedString<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.IsBalancedString",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsPalidromeRecursion<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.IsPalidromeRecursion",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutations<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.Permutations",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintDuplicateChars<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.PrintDuplicateChars",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintStringInBrackets<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.PrintStringInBrackets",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringToInteger<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.StringToInteger",
+            "projectName": "ds-algos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ToLowerCase<ds-algos>",
+            "request": "launch",
+            "mainClass": "Strings.ToLowerCase",
+            "projectName": "ds-algos"
+        }
+    ]
+}
