@@ -36,16 +36,16 @@ public class Heap {
 		int ri = 2 * pi + 2;
 
 		int max = pi;
-		
-		if(li < data.size() && isHP(li, max) > 0) {
+
+		if (li < data.size() && isHP(li, max) > 0) {
 			max = li;
 		}
-		
-		if(ri < data.size() && isHP(ri, max) > 0) {
+
+		if (ri < data.size() && isHP(ri, max) > 0) {
 			max = ri;
 		}
-		
-		if(max != pi) {
+
+		if (max != pi) {
 			swap(max, pi);
 			downHeapify(max);
 		}
@@ -77,5 +77,11 @@ public class Heap {
 		int jth = data.get(j);
 		data.set(i, jth);
 		data.set(j, ith);
+	}
+
+	public void display() {
+		for (int i : data) {
+			System.out.println(i + "");
+		}
 	}
 }

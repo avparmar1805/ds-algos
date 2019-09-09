@@ -8,14 +8,14 @@ public class WaveDisplay1DArray {
 	}
 
 	private static void waveDisplay(int[] A) {
-		sort(A);
+//		sort(A);
 		int i = 0;
-//		while (i < A.length - 1) {
-//			int temp = A[i];
-//			A[i] = A[i + 1];
-//			A[i + 1] = temp;
-//			i += 2;
-//		}
+		while (i < A.length - 1) {
+			int temp = A[i];
+			A[i] = A[i + 1];
+			A[i + 1] = temp;
+			i += 2;
+		}
 	}
 
 	private static void sort(int[] A) {

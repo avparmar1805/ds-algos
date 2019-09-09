@@ -9,6 +9,7 @@ public class GenericTree {
 	private class Node {
 		int data;
 		ArrayList<Node> children = new ArrayList<Node>();
+		boolean extremePosition;
 	}
 
 	private Node root;
@@ -433,7 +434,7 @@ public class GenericTree {
 			heapMover.pred = heapMover.prev;
 		} else if (heapMover.prev != null && heapMover.prev.data == data) {
 			heapMover.succ = heapMover.curr;
-		}
+		}	
 
 		heapMover.prev = node;
 		for (Node child : node.children) {
@@ -504,8 +505,38 @@ public class GenericTree {
 			rightMaxLevel = level;
 		}
 
-		for (int i = node.children.size() -1; i >= 0; i--) {
+		for (int i = node.children.size() - 1; i >= 0; i--) {
 			RightView(node.children.get(i), level + 1);
+		}
+	}
+
+	public void PrintIntersectionNodes() {
+		LinkedList<Node> q = new LinkedList();
+		boolean levelChange = true;
+		
+		root.extremePosition = true;
+		q.addLast(root);
+		q.addLast(null); // to manage levels added null
+		
+		while (q.size() > 0) {
+			Node node = q.removeFirst();
+			if(node == null) {
+				// means next node will be at higher level
+				levelChange = true;
+			} else {
+				if (!node.extremePosition) {
+					System.out.println(node.data + ".");
+				}
+				for (int i = 0; i < node.children.size(); i++) {
+					Node child = node.children.get(i);
+					if ((i == 0 || i == node.children.size() - 1) && levelChange) {
+						child.extremePosition = true;
+					}
+					q.addLast(child);
+				}
+				levelChange = false;
+				q.addLast(null);
+			}
 		}
 	}
 }

@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Highest element is pushed to last after every journey
+
 public class BubbleSort {
 	private static Scanner in;
 

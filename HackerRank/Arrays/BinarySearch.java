@@ -1,9 +1,9 @@
 package Arrays;
-
 public class BinarySearch {
 
 	public static void main(String[] args) {
 		int[] arr = { 10, 20, 30, 40, 50, 0, 1, 2 };
+		
 		int data = 40;
 		int pivot = findPivot(arr, 0, arr.length - 1);//findPivot(arr);//
 		System.out.println(pivot);

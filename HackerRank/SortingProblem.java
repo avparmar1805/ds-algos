@@ -35,7 +35,7 @@ public class SortingProblem {
 		}
 		System.out.println();
 	}
-
+	// place the largest at the last place and then go on.
 	public static int[] BubbleS(int[] arrayToSort) {
 
 		int si = 0;
@@ -75,6 +75,7 @@ public class SortingProblem {
 		return arr;
 	}
 
+	// place the smallest at the first place and then go on.
 	public static int[] SelectionS(int[] arr) {
 		int jc = 1;
 

@@ -4,26 +4,28 @@ public class Client {
 	public static void main(String args[]) {
 		// Stack st = new DynamicStack(5);
 
-		StacksUsingQueues st = new StacksUsingQueues(5);
+//		StackUsingQueuesT st = new StackUsingQueuesT(5);
+//
+//		st.push(10);
+//		st.push(100);
 
-		st.push(10);
-		st.display();
-		st.push(20);
-		st.display();
-		st.push(30);
-		st.display();
-		st.push(40);
-		st.display();
-		st.push(50);
-		st.display();
-		st.push(60);
-		st.display();
-		st.pop();
-		st.display();
-		st.pop();
-		st.display();
-		st.push(80);
-		st.display();
+//		st.display();
+//		st.push(20);
+//		st.display();
+//		st.push(30);
+//		st.display();
+//		st.push(40);
+//		st.display();
+//		st.push(50);
+//		st.display();
+//		st.push(60);
+//		st.display();
+//		st.pop();
+//		st.display();
+//		st.pop();
+//		st.display();
+//		st.push(80);
+//		st.display();
 		//
 		// System.out.println("Size => "+ st.size());
 		// System.out.println("isFull => "+ st.isFull());
@@ -36,9 +38,9 @@ public class Client {
 		// boolean isBalanced = validExpression(str);
 		// System.out.println("isBalanced " + isBalanced);
 
-		// String str = "(a+((((b+c)+d)+e))+f)";
-		// boolean hasDuplicates = CheckDuplicates(str);
-		// System.out.println("hasDuplicates " + hasDuplicates);
+		 String str = "(a+((((b+c)+d)+e))+f)";
+		 boolean hasDuplicates = CheckDuplicates(str);
+		 System.out.println("hasDuplicates " + hasDuplicates);
 		// stockSpan();
 		// increasingDecreasing();
 	}

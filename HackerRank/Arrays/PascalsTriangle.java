@@ -3,7 +3,7 @@ package Arrays;
 public class PascalsTriangle {
 	public static void main(String[] args) {
 		int[][] retArr = solve(3);
-		System.out.println(retArr[2][1]);
+		System.out.println(retArr[2][2]);
 
 	}
 	

@@ -17,7 +17,7 @@ public class HeapClient {
 		heap.add(80);
 		heap.add(90);
 		heap.add(5);
-		
+		heap.display();
 //		System.out.println(heap.peek());
 //		System.out.println(heap.remove());
 //		

@@ -15,17 +15,18 @@ public class TrieClient {
 		trie.add("as");
 		trie.add("see");
 		trie.add("seen");
+		trie.displayAsTree();
 		trie.displayAllWords();
-		System.out.println(trie.search("as") + " " +  trie.search("ask")); 
-		trie.remove("as");
-		System.out.println(trie.search("as") + " " +  trie.search("ask")); 
-		trie.remove("ask");
-		//trie.displayAllWords();
-		System.out.println(trie.search("an") + " " +  trie.search("and")); 
-		trie.remove("an");
-		System.out.println(trie.search("an") + " " +  trie.search("and")); 
-		trie.remove("and");
-		System.out.println(trie.search("an") + " " +  trie.search("and")); 
+//		System.out.println(trie.search("as") + " " +  trie.search("ask")); 
+//		trie.remove("as");
+//		System.out.println(trie.search("as") + " " +  trie.search("ask")); 
+//		trie.remove("ask");
+//		//trie.displayAllWords();
+//		System.out.println(trie.search("an") + " " +  trie.search("and")); 
+//		trie.remove("an");
+//		System.out.println(trie.search("an") + " " +  trie.search("and")); 
+//		trie.remove("and");
+//		System.out.println(trie.search("an") + " " +  trie.search("and")); 
 	}
 
 }

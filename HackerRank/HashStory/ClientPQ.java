@@ -5,16 +5,20 @@ import java.util.PriorityQueue;
 
 public class ClientPQ {
 	public static void main(String[] args) {
-		 int[] arr = { 10, 1, 7, 23, 42, 37, 8 };
-		 printKSmallest(arr, 3);
+		int[] arr = { 10, 1, 7, 23, 42, 37, 8 };
+		printKSmallest(arr, 3);
 
-		// MedianPriorityQueue mpq = new MedianPriorityQueue();
-		// mpq.add(10);
-		// mpq.add(50);
-		// mpq.add(30);
-		// System.out.println(mpq.peek());
-		// mpq.add(40);
-		// mpq.add(70);
+		MedianPriorityQueue mpq = new MedianPriorityQueue();
+		mpq.add(10);
+		mpq.add(50);
+		mpq.add(90);
+
+		mpq.add(30);
+		mpq.add(40);
+		mpq.add(100);
+		mpq.add(70);
+		System.out.println(mpq.peek());
+
 		// System.out.println(mpq.peek());
 		// mpq.add(90);
 		// mpq.add(100);

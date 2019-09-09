@@ -7,28 +7,30 @@ public class Client {
 		// 10 3 20 2 50 0 60 0 30 0 40 1 70 0
 		GenericTree gt = new GenericTree();
 
-		// gt.display();
+		gt.display();
+		// gt.PrintIntersectionNodes();
 		//// System.out.println(gt.size2());
 		// System.out.println(gt.max());
 		// System.out.println(gt.find(0));
 		// System.out.println(gt.height());
 
 		// gt.preo();
-		System.out.println();
-		// gt.posto();
-		 //gt.levelOzz();
-		//gt.LeftView();
-		gt.RightView();
+//		System.out.println();
+		 gt.levelO();
+		//gt.levelOlw();
+		// gt.levelOzz();
+		// gt.LeftView();
+//		gt.RightView();
 		// gt.mirror();
 		// System.out.println();
 		// gt.removeLeaves();
 		// gt.linearize();
 		// gt.linearizeEff();
-		//gt.display();
+//		gt.display();
 		// System.out.println(gt.isSymmetric());
 		// gt.multiSolver(120);
-		// gt.predSucc(100);
+//		 gt.predSucc(80);
 		// gt.justLarger(50);
-		//System.out.println(gt.kThSmallest(3));
+		// System.out.println(gt.kThSmallest(3));
 	}
 }

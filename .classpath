@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="HackerRank"/>
+	<classpathentry kind="src" path="AdvancedDS"/>
 	<classpathentry kind="output" path="out/production/ds-algos"/>
 </classpath>

@@ -3,19 +3,21 @@ package LinkedList;
 public class Client {
 	public static void main(String[] args) throws Exception {
 		LinkedList list = new LinkedList();
-
-//		list.addLast(1);
-//		list.addLast(2);
-//		list.addLast(3);
-//		list.addLast(4);
-//		list.addLast(3);
-//		list.addLast(4);
-//		list.addLast(5);
-//		list.addLast(6);
-//		list.addLast(7);
+		
+		list.addLast(0);
+		list.addLast(0);
+		list.addLast(0);
+		list.addLast(1);
+		list.addLast(1);
+		list.addLast(0);
+		list.addLast(0);
+		list.addLast(1);
+		list.addLast(0);
 //		list.addLast(8);
 //		list.addLast(9);
-//		list.display();
+		list.display();
+		int sum = list.decimalValue();
+		System.out.println(sum);
 //		list.removeDuplicatesUsingHM();
 //		list.display();
 		// list.removeFirst();
@@ -56,16 +58,16 @@ public class Client {
 //		list.kthReverse(3);
 //		list.display();
 		
-		LinkedList one = new LinkedList();
-		one.addLast(5);
-		one.addLast(6);
-		one.addLast(7);
-		
-		LinkedList two = new LinkedList();
-		two.addLast(8);
-		two.addLast(6);
-		two.addLast(7);
-		
-		LinkedList.add2LL(one, two);
+//		LinkedList one = new LinkedList();
+//		one.addLast(5);
+//		one.addLast(6);
+//		one.addLast(7);
+//		
+//		LinkedList two = new LinkedList();
+//		two.addLast(8);
+//		two.addLast(6);
+//		two.addLast(7);
+//		
+//		LinkedList.add2LL(one, two);
 	}
 }

@@ -521,4 +521,43 @@ public class LinkedList {
 
 		return currVal / 10;
 	}
+
+	class PairBToD {
+		PairBToD(int sum, int power) {
+			this.sum = sum;
+			this.power = power;
+		}
+
+		int sum;
+		int power;
+	}
+
+	public int BToD() {
+		PairBToD pair = BTODHelper(this.head);
+		return pair.sum;
+	}
+
+	private PairBToD BTODHelper(Node node) {
+
+		if (node.next == null) {
+			return new PairBToD(node.data * 1, 0);
+		}
+
+		PairBToD pair = BTODHelper(node.next);
+		int sum = pair.sum + (int) Math.pow(2, pair.power + 1) * node.data;
+		int power = pair.power + 1;
+		PairBToD retPair = new PairBToD(sum, power);
+		return retPair;
+	}
+
+	public int decimalValue() {
+		int res = 0;
+		Node node = this.head;
+		while (node != null) {
+			res = (res << 1) + (node.data == 1 ? 1 : 0);
+
+			node = node.next;
+		}
+		return res;
+	}
 }

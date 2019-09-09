@@ -1,4 +1,5 @@
 
+// After every iteration least element should be at first place
 public class SelectionSort {
 	public static void main(String[] args) {
 		int[] arr = { 9, 3, 2, 4, 1, 5, 7 };
