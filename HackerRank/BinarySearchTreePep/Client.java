@@ -38,20 +38,21 @@ public class Client {
 		// System.out.println(bt1.isBST());
 		int[] sa = { 12, 25, 37, 50, 63, 75, 87 };
 		BinarySearchTree bst = new BinarySearchTree(sa);
-			//bst.display();
+//		bst.printInRange(25, 63);
+		// bst.display();
 //		 System.out.println(bst.min());
 //		 System.out.println(bst.max());
 //		 System.out.println(bst.find(12));
-		 bst.add(30);
-//		 bst.add(40);
-		 //bst.display();
-		 
-		 //System.out.println(bst.lca(37, 62));
+//		bst.add(30);
+//		bst.add(40);
+//		bst.display();
+
+		System.out.println(bst.lca(12,37));
 //		 bst.replaceWithSumOfLarger();
 //		 System.out.println("--------");
 ////		 bst.remove(25);
-		// bst.display();	
-		 //bst.printSum(100);
+		// bst.display();
+		// bst.printSum(100);
 	}
 
 }

@@ -5,7 +5,7 @@ public class HeapClient {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Heap heap = new Heap(false);
+		Heap heap = new Heap(true);
 		
 		heap.add(30);
 		heap.add(40);
@@ -19,7 +19,7 @@ public class HeapClient {
 		heap.add(5);
 		heap.display();
 //		System.out.println(heap.peek());
-//		System.out.println(heap.remove());
+		System.out.println(heap.remove());
 //		
 //		System.out.println(heap.peek());
 //		System.out.println(heap.remove());

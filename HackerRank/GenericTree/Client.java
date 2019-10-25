@@ -14,16 +14,17 @@ public class Client {
 		// System.out.println(gt.find(0));
 		// System.out.println(gt.height());
 
-		// gt.preo();
+		 gt.preo();
 //		System.out.println();
-		 gt.levelO();
-		//gt.levelOlw();
+		// gt.levelO();
+//		gt.levelOlw();
 		// gt.levelOzz();
 		// gt.LeftView();
 //		gt.RightView();
 		// gt.mirror();
 		// System.out.println();
-		// gt.removeLeaves();
+//		 gt.removeLeaves();
+//		 gt.display();
 		// gt.linearize();
 		// gt.linearizeEff();
 //		gt.display();

@@ -3,7 +3,7 @@ package Arrays;
 public class PrintTargetSumWithIndexes {
 	public static void main(String[] args) {
 		int[] arr = { 70, 40, 50, 60, 10, 20 };
-		printTargetSum(arr, 30);
+		printTargetSum(arr, 150);
 	}
 
 	private static void printTargetSum(int[] arr, int target) {

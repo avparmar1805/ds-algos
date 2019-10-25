@@ -3,18 +3,18 @@ package LinkedList;
 public class Client {
 	public static void main(String[] args) throws Exception {
 		LinkedList list = new LinkedList();
-		
-		list.addLast(0);
-		list.addLast(0);
-		list.addLast(0);
-		list.addLast(1);
-		list.addLast(1);
-		list.addLast(0);
-		list.addLast(0);
-		list.addLast(1);
-		list.addLast(0);
-//		list.addLast(8);
-//		list.addLast(9);
+
+		list.addLast(10);
+		list.addLast(2);
+		list.addLast(5);
+		list.addLast(7);
+		list.addLast(3);
+		list.addLast(8);
+		list.addLast(12);
+		list.addLast(15);
+		list.addLast(20);
+		list.addLast(18);
+		list.addLast(9);
 		list.display();
 		int sum = list.decimalValue();
 		System.out.println(sum);
@@ -31,12 +31,12 @@ public class Client {
 		// list.reversePointerIteratively();
 		// list.reversePointerRecursively();
 		// list.reverseDataRecursive();
-		//System.out.println(list.isPalindrome());
-		//list.fold();
-		//list.display();
-		//System.out.println(list.kthFromLast(4));
-		//System.out.println(list.mid());
-		
+		// System.out.println(list.isPalindrome());
+		// list.fold();
+		// list.display();
+		// System.out.println(list.kthFromLast(4));
+		// System.out.println(list.mid());
+
 //		LinkedList one = new LinkedList();
 //		one.addLast(10);
 //		one.addLast(20);
@@ -51,13 +51,13 @@ public class Client {
 //		
 //		LinkedList merged = LinkedList.merge2SortedLL(one, two);
 //		merged.display();
-		
-		//list = LinkedList.mergeSortLL(list);
-		//list.oddEven();
-		//list.removeDuplicates();
+
+		// list = LinkedList.mergeSortLL(list);
+		// list.oddEven();
+		// list.removeDuplicates();
 //		list.kthReverse(3);
 //		list.display();
-		
+
 //		LinkedList one = new LinkedList();
 //		one.addLast(5);
 //		one.addLast(6);
